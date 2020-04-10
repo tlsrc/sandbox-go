@@ -13,6 +13,7 @@ func main() {
 	var problems = make(map[int]problem)
 	problems[1] = euler.Problem0001
 	problems[2] = euler.Problem0002
+	problems[3] = euler.Problem0003
 
 	var pb = flag.Int("pb", 1, "Please enter the -pb number")
 	flag.Parse()
