@@ -20,6 +20,7 @@ func main() {
 	problems[6] = euler.Problem0006
 	problems[7] = euler.Problem0007
 	problems[8] = euler.Problem0008
+	problems[9] = euler.Problem0009
 
 	var pb = flag.Int("pb", 1, "Please enter the -pb number")
 	flag.Parse()
